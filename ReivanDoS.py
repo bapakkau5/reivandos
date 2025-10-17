@@ -1,5 +1,5 @@
 import socket, struct, random, threading, time, sys, asyncio, multiprocessing, platform
-import ProxyConnector
+
 
 try:
     import cloudscraper
@@ -268,3 +268,4 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         print("🛑 Manual stop.")
+
